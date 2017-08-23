@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3917CDDB1F4E41F100AE07D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3917CDDA1F4E41F100AE07D9 /* AppDelegate.swift */; };
+		3917CDDD1F4E41F100AE07D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3917CDDC1F4E41F100AE07D9 /* ViewController.swift */; };
+		3917CDE01F4E41F100AE07D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3917CDDE1F4E41F100AE07D9 /* Main.storyboard */; };
+		3917CDE31F4E41F100AE07D9 /* Shakecube.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3917CDE11F4E41F100AE07D9 /* Shakecube.xcdatamodeld */; };
+		3917CDE51F4E41F200AE07D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3917CDE41F4E41F200AE07D9 /* Assets.xcassets */; };
+		3917CDE81F4E41F200AE07D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3917CDE61F4E41F200AE07D9 /* LaunchScreen.storyboard */; };
+		3917CDF31F4E41F200AE07D9 /* ShakecubeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3917CDF21F4E41F200AE07D9 /* ShakecubeTests.swift */; };
+		3917CDFE1F4E41F200AE07D9 /* ShakecubeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3917CDFD1F4E41F200AE07D9 /* ShakecubeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3917CDEF1F4E41F200AE07D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3917CDCF1F4E41F100AE07D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3917CDD61F4E41F100AE07D9;
+			remoteInfo = Shakecube;
+		};
+		3917CDFA1F4E41F200AE07D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3917CDCF1F4E41F100AE07D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3917CDD61F4E41F100AE07D9;
+			remoteInfo = Shakecube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3917CDD71F4E41F100AE07D9 /* Shakecube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shakecube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3917CDDA1F4E41F100AE07D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3917CDDC1F4E41F100AE07D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3917CDDF1F4E41F100AE07D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3917CDE21F4E41F100AE07D9 /* Shakecube.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shakecube.xcdatamodel; sourceTree = "<group>"; };
+		3917CDE41F4E41F200AE07D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3917CDE71F4E41F200AE07D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3917CDE91F4E41F200AE07D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3917CDEE1F4E41F200AE07D9 /* ShakecubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakecubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3917CDF21F4E41F200AE07D9 /* ShakecubeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakecubeTests.swift; sourceTree = "<group>"; };
+		3917CDF41F4E41F200AE07D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3917CDF91F4E41F200AE07D9 /* ShakecubeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShakecubeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3917CDFD1F4E41F200AE07D9 /* ShakecubeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakecubeUITests.swift; sourceTree = "<group>"; };
+		3917CDFF1F4E41F200AE07D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3917CDD41F4E41F100AE07D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3917CDEB1F4E41F200AE07D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3917CDF61F4E41F200AE07D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3917CDCE1F4E41F100AE07D9 = {
+			isa = PBXGroup;
+			children = (
+				3917CDD91F4E41F100AE07D9 /* Shakecube */,
+				3917CDF11F4E41F200AE07D9 /* ShakecubeTests */,
+				3917CDFC1F4E41F200AE07D9 /* ShakecubeUITests */,
+				3917CDD81F4E41F100AE07D9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3917CDD81F4E41F100AE07D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3917CDD71F4E41F100AE07D9 /* Shakecube.app */,
+				3917CDEE1F4E41F200AE07D9 /* ShakecubeTests.xctest */,
+				3917CDF91F4E41F200AE07D9 /* ShakecubeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3917CDD91F4E41F100AE07D9 /* Shakecube */ = {
+			isa = PBXGroup;
+			children = (
+				3917CDDA1F4E41F100AE07D9 /* AppDelegate.swift */,
+				3917CDDC1F4E41F100AE07D9 /* ViewController.swift */,
+				3917CDDE1F4E41F100AE07D9 /* Main.storyboard */,
+				3917CDE41F4E41F200AE07D9 /* Assets.xcassets */,
+				3917CDE61F4E41F200AE07D9 /* LaunchScreen.storyboard */,
+				3917CDE91F4E41F200AE07D9 /* Info.plist */,
+				3917CDE11F4E41F100AE07D9 /* Shakecube.xcdatamodeld */,
+			);
+			path = Shakecube;
+			sourceTree = "<group>";
+		};
+		3917CDF11F4E41F200AE07D9 /* ShakecubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				3917CDF21F4E41F200AE07D9 /* ShakecubeTests.swift */,
+				3917CDF41F4E41F200AE07D9 /* Info.plist */,
+			);
+			path = ShakecubeTests;
+			sourceTree = "<group>";
+		};
+		3917CDFC1F4E41F200AE07D9 /* ShakecubeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3917CDFD1F4E41F200AE07D9 /* ShakecubeUITests.swift */,
+				3917CDFF1F4E41F200AE07D9 /* Info.plist */,
+			);
+			path = ShakecubeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3917CDD61F4E41F100AE07D9 /* Shakecube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3917CE021F4E41F200AE07D9 /* Build configuration list for PBXNativeTarget "Shakecube" */;
+			buildPhases = (
+				3917CDD31F4E41F100AE07D9 /* Sources */,
+				3917CDD41F4E41F100AE07D9 /* Frameworks */,
+				3917CDD51F4E41F100AE07D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shakecube;
+			productName = Shakecube;
+			productReference = 3917CDD71F4E41F100AE07D9 /* Shakecube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3917CDED1F4E41F200AE07D9 /* ShakecubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3917CE051F4E41F200AE07D9 /* Build configuration list for PBXNativeTarget "ShakecubeTests" */;
+			buildPhases = (
+				3917CDEA1F4E41F200AE07D9 /* Sources */,
+				3917CDEB1F4E41F200AE07D9 /* Frameworks */,
+				3917CDEC1F4E41F200AE07D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3917CDF01F4E41F200AE07D9 /* PBXTargetDependency */,
+			);
+			name = ShakecubeTests;
+			productName = ShakecubeTests;
+			productReference = 3917CDEE1F4E41F200AE07D9 /* ShakecubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3917CDF81F4E41F200AE07D9 /* ShakecubeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3917CE081F4E41F200AE07D9 /* Build configuration list for PBXNativeTarget "ShakecubeUITests" */;
+			buildPhases = (
+				3917CDF51F4E41F200AE07D9 /* Sources */,
+				3917CDF61F4E41F200AE07D9 /* Frameworks */,
+				3917CDF71F4E41F200AE07D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3917CDFB1F4E41F200AE07D9 /* PBXTargetDependency */,
+			);
+			name = ShakecubeUITests;
+			productName = ShakecubeUITests;
+			productReference = 3917CDF91F4E41F200AE07D9 /* ShakecubeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3917CDCF1F4E41F100AE07D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = Shakecube;
+				TargetAttributes = {
+					3917CDD61F4E41F100AE07D9 = {
+						CreatedOnToolsVersion = 9.0;
+					};
+					3917CDED1F4E41F200AE07D9 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 3917CDD61F4E41F100AE07D9;
+					};
+					3917CDF81F4E41F200AE07D9 = {
+						CreatedOnToolsVersion = 9.0;
+						TestTargetID = 3917CDD61F4E41F100AE07D9;
+					};
+				};
+			};
+			buildConfigurationList = 3917CDD21F4E41F100AE07D9 /* Build configuration list for PBXProject "Shakecube" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3917CDCE1F4E41F100AE07D9;
+			productRefGroup = 3917CDD81F4E41F100AE07D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3917CDD61F4E41F100AE07D9 /* Shakecube */,
+				3917CDED1F4E41F200AE07D9 /* ShakecubeTests */,
+				3917CDF81F4E41F200AE07D9 /* ShakecubeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3917CDD51F4E41F100AE07D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3917CDE81F4E41F200AE07D9 /* LaunchScreen.storyboard in Resources */,
+				3917CDE51F4E41F200AE07D9 /* Assets.xcassets in Resources */,
+				3917CDE01F4E41F100AE07D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3917CDEC1F4E41F200AE07D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3917CDF71F4E41F200AE07D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3917CDD31F4E41F100AE07D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3917CDE31F4E41F100AE07D9 /* Shakecube.xcdatamodeld in Sources */,
+				3917CDDD1F4E41F100AE07D9 /* ViewController.swift in Sources */,
+				3917CDDB1F4E41F100AE07D9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3917CDEA1F4E41F200AE07D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3917CDF31F4E41F200AE07D9 /* ShakecubeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3917CDF51F4E41F200AE07D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3917CDFE1F4E41F200AE07D9 /* ShakecubeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3917CDF01F4E41F200AE07D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3917CDD61F4E41F100AE07D9 /* Shakecube */;
+			targetProxy = 3917CDEF1F4E41F200AE07D9 /* PBXContainerItemProxy */;
+		};
+		3917CDFB1F4E41F200AE07D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3917CDD61F4E41F100AE07D9 /* Shakecube */;
+			targetProxy = 3917CDFA1F4E41F200AE07D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3917CDDE1F4E41F100AE07D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3917CDDF1F4E41F100AE07D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3917CDE61F4E41F200AE07D9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3917CDE71F4E41F200AE07D9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3917CE001F4E41F200AE07D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3917CE011F4E41F200AE07D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3917CE031F4E41F200AE07D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5CU52HEKE;
+				INFOPLIST_FILE = Shakecube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shakecube.Shakecube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3917CE041F4E41F200AE07D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P5CU52HEKE;
+				INFOPLIST_FILE = Shakecube/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shakecube.Shakecube;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3917CE061F4E41F200AE07D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P5CU52HEKE;
+				INFOPLIST_FILE = ShakecubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shakecube.ShakecubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shakecube.app/Shakecube";
+			};
+			name = Debug;
+		};
+		3917CE071F4E41F200AE07D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = P5CU52HEKE;
+				INFOPLIST_FILE = ShakecubeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shakecube.ShakecubeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shakecube.app/Shakecube";
+			};
+			name = Release;
+		};
+		3917CE091F4E41F200AE07D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P5CU52HEKE;
+				INFOPLIST_FILE = ShakecubeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shakecube.ShakecubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shakecube;
+			};
+			name = Debug;
+		};
+		3917CE0A1F4E41F200AE07D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = P5CU52HEKE;
+				INFOPLIST_FILE = ShakecubeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Shakecube.ShakecubeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Shakecube;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3917CDD21F4E41F100AE07D9 /* Build configuration list for PBXProject "Shakecube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3917CE001F4E41F200AE07D9 /* Debug */,
+				3917CE011F4E41F200AE07D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3917CE021F4E41F200AE07D9 /* Build configuration list for PBXNativeTarget "Shakecube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3917CE031F4E41F200AE07D9 /* Debug */,
+				3917CE041F4E41F200AE07D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3917CE051F4E41F200AE07D9 /* Build configuration list for PBXNativeTarget "ShakecubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3917CE061F4E41F200AE07D9 /* Debug */,
+				3917CE071F4E41F200AE07D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3917CE081F4E41F200AE07D9 /* Build configuration list for PBXNativeTarget "ShakecubeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3917CE091F4E41F200AE07D9 /* Debug */,
+				3917CE0A1F4E41F200AE07D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3917CDE11F4E41F100AE07D9 /* Shakecube.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3917CDE21F4E41F100AE07D9 /* Shakecube.xcdatamodel */,
+			);
+			currentVersion = 3917CDE21F4E41F100AE07D9 /* Shakecube.xcdatamodel */;
+			path = Shakecube.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3917CDCF1F4E41F100AE07D9 /* Project object */;
+}
